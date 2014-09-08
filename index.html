@@ -6,28 +6,16 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Demo: A Fullscreen Slideshow using Skrollr.js</title>
-    <meta name="description" content="Learn how to create a fullscreen slideshow for your scrolling website.">
-    
-    <link rel="author" href="https://plus.google.com/u/0/109859280204979591787/about"/>
+    <title>Caroline Soalhat - Web Developer</title>
 
     <!--iOS -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!--
-        * This demo was prepared for you by Petr Tichy - Ihatetomatoes.net
-        * Want to see more similar demos and tutorials?
-        * Help by spreading the word about Ihatetomatoes blog.
-        * Facebook - https://www.facebook.com/ihatetomatoesblog
-        * Twitter - https://twitter.com/ihatetomatoes
-        * Google+ - https://plus.google.com/u/0/109859280204979591787/about
-    -->
-    
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css">
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    
 
 </head>
 <body>
@@ -49,31 +37,136 @@
             data-350p="transform: translate(-50%,0%)"
         >
             <div id="slide-1" class="slide">
-                <div class="caption">
-                    <h1>Slide 1</h1>
-                    <p>Slide 1 information</p>
+                <div id="top">
+                    <img id="banner" src="img/bcg_slide-1.jpg">
+                    <img id="profile" src="img/profile_pic.png">
+                </div>  
+                <div id="content">
+                    <div class="menu"></div>                    
+                    <div class="text">
+                        <h1>Caroline Soalhat | Web Developer</h1>
+                        <p>After working several years for digital startups and coordinating with developers and designers, I have finally decided to become one of the cool kids.</p>
+                    </br>
+                        <p>I have just finished General Assembly's 12 Weeks Immersive Web Development program where I was taught Ruby on Rails, JavaScript, HTML, CSS, SQL, Git, AWS and Heroku.</p>
+                        <div style="font-size: 44px;">
+                        </div>
+                        <a href="https://s3.amazonaws.com/www.csoalhat.com/CV+CS.pdf" target="_blank"><i class="fa fa-file-text" style="font-size: 30px"></i></a>
+                        <a href="http://www.linkedin.com/pub/caroline-soalhat/13/653/49b" target="_blank"><i class="linkedin fa fa-linkedin"></i></a><a href="http://github.com/csoalhat" target="_blank"><i class="github fa fa-github"></i></a><a href="http://twitter.com/csoalhat" target="_blank"><i class="twitter fa fa-twitter"></i></a> 
+
+                    </div>
+                    <div class="arrow"><img src="img/arrow.png"></div>
                 </div>
-            </div>    
+            </div>  
             <div id="slide-2" class="slide">
-                <div class="caption">
-                    <h1>Slide 2</h1>
-                    <p>Slide 2 information</p>
+                <div id="top">
+                    <div id="skills">
+                        <div id="skills-title" style="padding-top: 2em">Skills</div>
+                        <div class="skills-container"><img src="img/frontend.png">
+                            <h1>Front End</h1>
+                            <body style="color:#fff; line-height:1.4em;font-family: Helvetica-Light, Arial;font-size:0.9em">HTML 5 - CSS 3 - SASS<br>
+                            Javascript - jQuery - AJAX<br>
+                            CoffeeScript - HAML - Backbone
+                            </style>
+                        </div>
+                        <div class="skills-container"><img src="img/backend.png">
+                            <h1>Back End</h1>
+                            <body style="color:#fff; line-height:1.4em;font-family: Helvetica-Light, Arial;font-size:0.9em">Ruby - Ruby on Rails - API<br>
+                            MVC Architecture - Database Structure<br>
+                            PostgreSQL - Git - AWS - Heroku</style>
+                        </div>
+                        <div class="skills-container"><img src="img/webdesign.png">
+                            <h1>Web Design</h1>
+                            <body style="color:#fff; line-height:1.4em;font-family: Helvetica-Light, Arial;font-size:0.9em">UX/UI - Photoshop - Sketch <br>
+                            Illustrator - inDesign - Bootstrap<br>
+                            Flash - Edge - After Effects
+                            </style>
+                        </div>
+                        <div class="skills-container"><img src="img/tools.png">
+                            <h1>Tools</h1>
+                            <body style="color:#fff; line-height:1.4em;font-family: Helvetica-Light, Arial;font-size:0.9em">Wordpress - Drupal - MailChimp<br>
+                            Adwords - SEO - Google Analytics<br>
+                            Salesforce - CRM
+                            </style>
+                        </div>
+                    </div>
+                    <div class="arrow"><img src="img/arrow-white.png"></div>
                 </div>
             </div>    
             <div id="slide-3" class="slide">
-                <div class="caption">
-                    <h1>Slide 3</h1>
-                    <p>Slide 3 information</p>
+                <div id="skills-title">Projects</div>
+                <div class="portfolio-wrapper"><a href="https://github.com/csoalhat/washit" target="_blank">
+                    <div class="p-left">
+                        <img src="img/washit.png">
+                    </div>
+                    <div class="p-right">
+                        <a href="https://github.com/csoalhat/washit" target="_blank"><h1>Washit <i class="github fa fa-github"></i></a><br><a href="https://s3.amazonaws.com/washit/index.html" target="_blank" style="font-size:0.5em">Front-end Responsive homepage</a></h1>
+
+                        <p>Washit is a Uber for dry-cleaning where users can book dry cleaning orders. The orders are assigned to local dry-cleaners based on their location. Dry-cleaners have access to a dashboard and can manage their bookings. 
+                        </p>
+                        <br>
+                        <p>
+                        This project was built using Ruby on Rails, HAML, PostGreSQL, JavaScript and jQuery. Authentication with Devise and oAuth, permissions with Cancan. 
+                        </p>
+
+                    </div>
                 </div>
+
+                <div class="portfolio-wrapper"><a href="https://github.com/csoalhat/citynsider" target="_blank">
+                    <div class="p-left">
+                        <img src="img/citynsider.png">
+                    </div>
+                    <div class="p-right">
+                        <a href="https://github.com/csoalhat/citynsider" target="_blank"><h1>Citynsider <i class="github fa fa-github"></i></a></h1>
+                        <p>Citynsider is a map generator based on interests. After selecting a location and a 'tribe' -such as artists, hipsters or hippies- the app will return a path going through the most popular places visited by people belonging to that tribe.<p>
+                        <br>
+                        <p> 
+                        This project was built using Ruby on Rails, Javascript, jQuery, AJAX, Google Map API, Geocoder and Yelp API. 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="portfolio-wrapper"><a href="https://github.com/mattstuddert/rss_feed_reader" target="_blank">
+                    <div class="p-left">
+                        <img src="img/readr.png">
+                    </div>
+                    <div class="p-right">
+                        <a href="https://github.com/mattstuddert/rss_feed_reader" target="_blank"><h1>Readr <i class="github fa fa-github"></i></a></h1>
+                        <p>Readr is a social RSS Feed Reader. Users can add new RSS feeds, subscribe to an existing feed, bookmark, comment and share articles. 
+                        </p>
+                        <br>
+                        <p>
+                        This project was built using Ruby on Rails, HAML, CSS and a custom Rake Task to parse RSS and Atom feeds. Extensive model associations, database architecture with PostgreSQL. Group project: use of Github, branches and pair programming.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="portfolio-wrapper"><a href="https://github.com/csoalhat/muzup" target="_blank">
+                    <div class="p-left">
+                        <img src="img/muzup.png">
+                    </div>
+                    <div class="p-right">
+                        <a href="https://github.com/csoalhat/muzup" target="_blank"><h1>Muzup <i class="github fa fa-github"></i></a></h1>
+                        <p>Muzup is a social music sharing website. Users can create profiles, upload songs, videos and pictures that they can share with their friends and comment. 
+                        </p>
+                        <br>
+                        <p>
+                        First project. Ruby on Rails, HTML, CSS, model associations and SQLlite. File uplaod using CarrierWave and Amazon S3. Authorisation using Cancan. Search with Ransack. 
+                        </p>
+                    </div>
+                </div>
+                 <div class="arrow"><img src="img/arrow-white.png"></div>
             </div>    
             <div id="slide-4" class="slide">
-                <div class="caption">
-                    <h1>Slide 4</h1>
-                    <p>Slide 4 information</p>
-                </div>
-            </div>    
-        </div>
-    </div>
+                    <div id="white-box">
+                    <h1 style="font-size: 2em">CONTACT</h1>
+                    <br>
+                    <p style="font-weight: bold; font-size: 1.2em">Caroline Soalhat<p><br>
+                    <p><b>Tel:</b> 07804 106484</p>
+                    <p><b>Email:</b> <a href="mailto:csoalhat@gmail.com" target="_top">
+csoalhat@gmail.com</a></p>
+
+                </div> 
+   </div>
 
     <div id="helper">
         <div class="marker one"></div>
@@ -81,7 +174,6 @@
         <div class="marker three"></div>
         <div class="marker four"></div>
 
-    </div>
 	</div>
 
     <script src="js/skrollr.min.js"></script>   
